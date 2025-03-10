@@ -32,6 +32,7 @@ def removeElement(nums,val):
         if nums[j] != val:
             nums[i]=nums[j]
             i+=1
+            
     return i
 print(removeElement (nums,val))
 
