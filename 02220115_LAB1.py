@@ -23,7 +23,6 @@ class CustomList:
     def get_size(self):
         return self.size  
 
-
 answer = CustomList()
 answer.append(5)
 answer.get(0)
