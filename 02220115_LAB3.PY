@@ -64,3 +64,5 @@ print("Top element:", linked_stack.peek())
 linked_stack.pop()
 linked_stack.display()
 print(f"Stack size: {linked_stack.size}")
+
+
