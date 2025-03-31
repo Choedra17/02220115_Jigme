@@ -65,7 +65,6 @@ class LinkedQueue:
             current = current.next
         return " -> ".join(result) + " -> null"
 
-
 queue = LinkedQueue()
 queue.enqueue(10)
 queue.display()  
